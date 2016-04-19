@@ -1,14 +1,11 @@
-// Functions here
 function showJsLove() {
-  $.get('https://api.github.com/repos/rails/rails/commits' function(data){
-
-      $('body').append(data);
-
+  console.log("I");
+  $.getJSON("https://api.github.com/repos/rails/rails/commits", function() {
+    console.log("JavaScript");
   });
-
+  console.log("Love");
 };
 
 $(document).ready(function (){
   showJsLove();
-  alert('here');
 });
