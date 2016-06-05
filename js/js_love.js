@@ -1,7 +1,15 @@
 // Functions here
 function showJsLove() {
+  console.log('I')
+
+  $.getJSON('https://api.github.com/repos/rails/rails/commits', function(response) {
+    console.log('Javascript');
+  })//.fail(function(response) {
+  //   console.log('Fail');
+  // });
+  console.log('Love');
 };
 
-$(document).ready(function (){
+$(document).ready(function() {
   showJsLove();
 });
