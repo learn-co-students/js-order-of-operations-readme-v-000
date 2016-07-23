@@ -5,7 +5,7 @@ function showJsLove() {
   // This is our success callback which is called automatically
     console.log('JavaScript');
   });
-  
+
   console.log('Love');
 };
 
