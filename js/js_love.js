@@ -2,14 +2,13 @@
 
 
 function showJsLove() {
-  $.getJSON("https://api.github.com/repos/rails/rails/commits", function(response) {
-    console.log("success");
+    console.log("I");
+  $.getJSON("https://api.github.com/repos/rails/rails/commits", function() {
+    console.log("JavaScript");
   })
+    console.log("Love");
 };
 
 $(document).ready(function (){
-  console.log("I")
-  console.log("Love")
-  console.log("JavaScript")
   showJsLove();
 });
