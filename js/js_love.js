@@ -3,9 +3,9 @@
 function showJsLove() {
   console.log("I");
   $.getJSON("https://api.github.com/repos/rails/rails/commits", function(response) {
-    console.log("love");
+    console.log("JavaScript");
   });
-  console.log("JavaScript");
+  console.log("love");
 };
 
 $(document).ready(function (){
